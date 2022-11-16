@@ -1,0 +1,40 @@
+@font-face {
+    font-family: clock;
+    src: url('./digital-7.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1e1e1e;
+}
+
+main{
+    background-color: #e1e1e1;
+    padding: 2em 4em;
+    border-radius: 1em;
+    user-select: none;
+    box-shadow:  -5px 5px 0 rgba(0, 0, 0, 0.568);
+}
+
+span#infoDay{
+    display: block;
+    text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span#clock {
+    font-family: clock, Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+}
